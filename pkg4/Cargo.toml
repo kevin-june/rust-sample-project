@@ -1,0 +1,9 @@
+[package]
+name = "pkg4"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# This depends on some local source code
+pkg2 = { path = "../pkg2" }
+pkg3 = { path = "../pkg3" }
